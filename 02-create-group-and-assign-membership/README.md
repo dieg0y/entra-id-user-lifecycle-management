@@ -39,7 +39,7 @@ Go to **Engineering Team > Members**. You should see 1 group member found: **Luc
 
 ![Engineering Team - Members - Lucia Fernandez](./images/10-engineering-team-members.png)
 
-> 💡 **Best practice:** always assign permissions through groups, never directly to users. When a user changes roles, you only move them from one group to another and their permissions change automatically.
+> **Best practice:** always assign permissions through groups, never directly to users. When a user changes roles, you only move them from one group to another and their permissions change automatically.
 
 ---
 
