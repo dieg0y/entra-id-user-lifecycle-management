@@ -16,9 +16,9 @@ The screenshot below shows **User sign-ins (interactive)** with columns for Date
 
 ![Sign-in logs - User sign-ins table](./images/16-sign-in-logs-table.png)
 
-> 👀 **Why it matters:** Sign-in logs let you audit who signed in, from where, and whether there were failed attempts. It is your first tool to detect a possible threat.
+> **Why it matters:** Sign-in logs let you audit who signed in, from where, and whether there were failed attempts. It is your first tool to detect a possible threat.
 
-> 🔒 **Privacy note for GitHub:** the screenshot shows your admin UPN and IP addresses. For a public repository, consider cropping the IP address column or blurring sensitive values before publishing.
+> **Privacy note for GitHub:** the screenshot shows your admin UPN and IP addresses. For a public repository, consider cropping the IP address column or blurring sensitive values before publishing.
 
 ---
 
