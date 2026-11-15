@@ -32,7 +32,7 @@ In the policy details, the assignment is **Users or agents**, with **All users i
 
 Make sure the `BreakGlass` account is **excluded** from the policy.
 
-> 🔑 **Key point:** the goal is to show the value of Conditional Access and the importance of having an account that lets you get back into the workstation if you get blocked.
+> **Key point:** the goal is to show the value of Conditional Access and the importance of having an account that lets you get back into the workstation if you get blocked.
 
 ---
 
