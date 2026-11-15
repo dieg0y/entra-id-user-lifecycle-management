@@ -1,41 +1,14 @@
 # Microsoft Entra ID User Lifecycle Management Lab
 
-![Microsoft Entra ID](https://img.shields.io/badge/Microsoft-Entra_ID-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Identity Management](https://img.shields.io/badge/Identity-Management-success?style=for-the-badge)
-![JML](https://img.shields.io/badge/Joiner-Mover-Leaver-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+> Hands-on project demonstrating the complete Joiner-Mover-Leaver (JML) lifecycle in Microsoft Entra ID.
 
-## Project Overview
-
-This project demonstrates the complete **Joiner-Mover-Leaver (JML)** user lifecycle in **Microsoft Entra ID**, following identity and access management practices commonly used in enterprise environments.
-
-The lab walks through the creation and management of users, group-based access control, auditing, identity governance, Conditional Access, and Break Glass administration.
-
-All tasks were completed manually using the Microsoft Entra Admin Center to provide hands-on experience with real administrative workflows.
-
----
-
-## Skills Demonstrated
-
-- User Provisioning
-- User Lifecycle Management (JML)
-- Group-Based Access Control (RBAC Principles)
-- Password Administration
-- Sign-in Log Analysis
-- Security Monitoring
-- Access Reviews
-- Identity Governance
-- Conditional Access
-- Break Glass Account Management
-- Microsoft Entra Administration
-- Security Best Practices
+This lab covers user onboarding, group-based access management, password administration, sign-in auditing, offboarding, Access Reviews, Conditional Access, and Break Glass account management through practical exercises in the Microsoft Entra Admin Center.
 
 ---
 
 ## Table of Contents
 
-- [What You Will Learn](#what-you-will-learn)
-- [Technologies Used](#technologies-used)
+- [Project Overview](#project-overview)
 - [Prerequisites](#prerequisites)
 - [Repository Structure](#repository-structure)
 - [Lab Modules](#lab-modules)
@@ -45,33 +18,11 @@ All tasks were completed manually using the Microsoft Entra Admin Center to prov
 
 ---
 
-## What You Will Learn
+## Project Overview
 
-| Topic | Description |
-|---------|-------------|
-| **Joiner Process** | Create and onboard new users. |
-| **Group Management** | Assign access through security groups. |
-| **Password Management** | Reset user passwords securely. |
-| **Mover Process** | Simulate role changes and access modifications. |
-| **Leaver Process** | Disable and offboard departing users. |
-| **Identity Governance** | Perform Access Reviews. |
-| **Security Operations** | Monitor activity through Sign-in Logs. |
-| **Conditional Access** | Understand policy-based access control. |
-| **Break Glass Accounts** | Configure emergency administrative access. |
+This project demonstrates how organizations manage user identities throughout the employee lifecycle using Microsoft Entra ID.
 
----
-
-## Technologies Used
-
-- Microsoft Entra ID
-- Microsoft Azure
-- Microsoft Identity Governance
-- Microsoft Entra Groups
-- Conditional Access
-- Access Reviews
-- Sign-in Logs
-- GitHub
-- Identity and Access Management (IAM)
+By completing this lab, you will gain hands-on experience with identity administration, access management, security monitoring, governance controls, and user lifecycle processes commonly performed by IT Support, Microsoft 365 Administrators, and Identity Administrators.
 
 ---
 
@@ -86,10 +37,10 @@ All tasks were completed manually using the Microsoft Entra Admin Center to prov
    - Global Administrator
    - User Administrator
 
-4. Access to the Microsoft Entra Admin Center:
+4. Access the Microsoft Entra Admin Center:
    - https://entra.microsoft.com
 
-> **Security Note:** Never publish real passwords, Tenant IDs, Object IDs, secrets, access tokens, or sensitive information in public repositories.
+> **Security Note:** Never publish passwords, Tenant IDs, Object IDs, secrets, or any other sensitive data in a public repository.
 
 ---
 
@@ -121,110 +72,52 @@ All tasks were completed manually using the Microsoft Entra Admin Center to prov
     └── images/
 ```
 
-Each module contains its own documentation and screenshots.
-
-All screenshots are embedded directly into each module's README file for easier review.
+Each folder contains its own walkthrough, screenshots, and documentation.
 
 ---
 
 ## Lab Modules
 
-### 1. Create a User Manually
+Click any module below to open the complete walkthrough.
 
-Simulates the onboarding process for a new employee.
+### 🔹 [01 · Create a User Manually](01-create-user-manually/)
 
-**Covered Topics**
+Create and configure a new user account in Microsoft Entra ID.
 
-- User creation
-- User properties
-- Temporary passwords
-- Account verification
+### 🔹 [02 · Create a Group and Assign Membership](02-create-group-and-assign-membership/)
 
----
+Manage access using security groups and group membership.
 
-### 2. Create a Group and Assign Membership
+### 🔹 [03 · Reset Password, Disable, and Re-enable an Account](03-reset-password-disable-and-re-enable-an-account/)
 
-Demonstrates access management through security groups.
+Perform common identity administration and Help Desk tasks.
 
-**Covered Topics**
+### 🔹 [04 · Sign-in Logs: Audit and Monitoring](04-sign-in-logs-audit-and-monitoring/)
 
-- Security groups
-- Membership assignment
-- Access control concepts
+Review sign-in activity and security-related events.
 
----
+### 🔹 [05 · Mover and Leaver: Promotion and Offboarding](05-mover-and-leaver-promotion-and-offboarding/)
 
-### 3. Reset Password, Disable, and Re-enable an Account
+Simulate role changes and employee offboarding processes.
 
-Demonstrates common Help Desk and Identity Administrator tasks.
+### 🔹 [06 · Access Review](06-access-review/)
 
-**Covered Topics**
+Validate user access through identity governance controls.
 
-- Password reset
-- Account disabling
-- Account reactivation
+### 🔹 [07 · Break Glass and Conditional Access](07-break-glass-and-conditional-access/)
 
----
-
-### 4. Sign-in Logs: Audit and Monitoring
-
-Introduces security auditing within Entra ID.
-
-**Covered Topics**
-
-- Sign-in logs
-- Audit trail analysis
-- Security monitoring
-
----
-
-### 5. Mover and Leaver: Promotion and Offboarding
-
-Simulates employee role changes and departures.
-
-**Covered Topics**
-
-- Promotions
-- Group reassignment
-- Access removal
-- Account offboarding
-
----
-
-### 6. Access Review
-
-Introduces identity governance concepts.
-
-**Covered Topics**
-
-- Access Reviews
-- Access validation
-- Governance workflows
-
----
-
-### 7. Break Glass and Conditional Access
-
-Covers emergency access administration and policy enforcement.
-
-**Covered Topics**
-
-- Break Glass accounts
-- Conditional Access
-- Administrative resilience
+Configure emergency administrative access and Conditional Access policies.
 
 ---
 
 ## Best Practices and Security
 
-- Use groups instead of assigning permissions directly to users.
+- Assign permissions through groups rather than directly to users.
 - Follow the principle of least privilege.
-- Remove access that is no longer required.
 - Disable accounts immediately when employees leave the organization.
-- Review sign-in logs regularly.
-- Store credentials securely.
-- Maintain administrative emergency access accounts.
-- Document administrative actions with screenshots when building a lab portfolio.
+- Review Sign-in Logs regularly.
+- Never publish credentials or sensitive information.
+- Document administrative activities and security-related changes.
 
 ---
 
@@ -232,27 +125,11 @@ Covers emergency access administration and policy enforcement.
 
 After completing the lab:
 
-1. Delete all test users.
-2. Delete all test groups.
-3. Remove test policies if they are no longer needed.
-4. Complete or remove Access Reviews.
+1. Delete test users.
+2. Delete test groups.
+3. Remove test Access Reviews.
+4. Remove any unused policies.
 5. Verify that disabled accounts remain disabled.
-6. Review the tenant to ensure no unnecessary objects remain.
-
----
-
-## Learning Outcome
-
-After completing this lab, you will understand how organizations manage user identities throughout the entire employment lifecycle while maintaining security, compliance, and governance requirements.
-
-This project provides foundational experience for roles such as:
-
-- Help Desk Technician
-- IT Support Specialist
-- Microsoft 365 Administrator
-- Identity Administrator
-- IAM Analyst
-- Systems Administrator
 
 ---
 
