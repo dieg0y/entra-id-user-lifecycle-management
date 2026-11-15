@@ -17,7 +17,7 @@ Reset the password, disable the account for a Leaver, and re-enable it again.
 
 ![Reset password - Password has been reset - REDACTED](./images/12-reset-password-result-REDACTED.png)
 
-> ⚠️ **Important for GitHub:** the original screenshot showed the temporary password in clear text. Use the redacted version above (`12-reset-password-result-REDACTED.png`) for the repository. Do not upload the original screenshot with the visible password.
+> **Important for GitHub:** the original screenshot showed the temporary password in clear text. Use the redacted version above (`12-reset-password-result-REDACTED.png`) for the repository. Do not upload the original screenshot with the visible password.
 
 **Disable an account (Leaver process):**
 
@@ -36,7 +36,7 @@ Reset the password, disable the account for a Leaver, and re-enable it again.
 
 Repeat the same steps, but this time leave **Account enabled** checked and save the changes.
 
-> 🔒 **Golden rule for Leaver:** when an employee leaves, disable their account immediately. Do not wait until the end of the day. That is how you prevent unauthorized access.
+> **Golden rule for Leaver:** when an employee leaves, disable their account immediately. Do not wait until the end of the day. That is how you prevent unauthorized access.
 
 ---
 
