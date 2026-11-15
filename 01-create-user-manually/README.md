@@ -61,7 +61,7 @@ Click **Review + create** and then **Create**.
 
 ![Created user - Lucia Fernandez](./images/06-user-created.png)
 
-> ✅ **Check:** in the user profile you should see the User principal name, the Object ID, the creation date, and the status `Enabled`. In this example the creation date is November 14, 2026.
+> **Check:** in the user profile you should see the User principal name, the Object ID, the creation date, and the status `Enabled`. In this example the creation date is November 14, 2026.
 
 ---
 
