@@ -89,57 +89,29 @@ Click a title to open its folder. Inside you will find the full steps and all th
 
 ### [1 · Create a User Manually](01-create-user-manually/)
 
-Create Lucia Fernandez in Entra ID with job info and verify the account is enabled.
-
-![1 · Create a User Manually - preview](01-create-user-manually/images/01-entra-id.png)
-
 [Open folder →](01-create-user-manually/)
 
 ### [2 · Create a Group and Assign Membership](02-create-group-and-assign-membership/)
-
-Create the Engineering Team security group and assign Lucia Fernandez to it.
-
-![2 · Create a Group and Assign Membership - preview](02-create-group-and-assign-membership/images/07-groups-overview.png)
 
 [Open folder →](02-create-group-and-assign-membership/)
 
 ### [3 · Reset Password, Disable, and Re-enable an Account](03-reset-password-disable-and-re-enable-an-account/)
 
-Reset the password, disable the account for a Leaver, and re-enable it again.
-
-![3 · Reset Password, Disable, and Re-enable an Account - preview](03-reset-password-disable-and-re-enable-an-account/images/11-reset-password-button.png)
-
 [Open folder →](03-reset-password-disable-and-re-enable-an-account/)
 
 ### [4 · Sign-in Logs: Audit and Monitoring](04-sign-in-logs-audit-and-monitoring/)
-
-Audit who signed in, from where, and spot failed attempts in Sign-in logs.
-
-![4 · Sign-in Logs: Audit and Monitoring - preview](04-sign-in-logs-audit-and-monitoring/images/15-monitoring-sign-in-logs-menu.png)
 
 [Open folder →](04-sign-in-logs-audit-and-monitoring/)
 
 ### [5 · Mover and Leaver: Promotion and Offboarding Simulation](05-mover-and-leaver-promotion-and-offboarding/)
 
-Simulate a promotion from Mid Level to Senior Level and an offboarding to Former Employees.
-
-![5 · Mover and Leaver: Promotion and Offboarding Simulation - preview](05-mover-and-leaver-promotion-and-offboarding/images/17-four-groups.png)
-
 [Open folder →](05-mover-and-leaver-promotion-and-offboarding/)
 
 ### [6 · Access Review](06-access-review/)
 
-Create a demo group and app, run an Access Review, and verify the result in My Access.
-
-![6 · Access Review - preview](06-access-review/images/24-access-review-group.png)
-
 [Open folder →](06-access-review/)
 
 ### [7 · Break Glass and Conditional Access](07-break-glass-and-conditional-access/)
-
-Create a Break Glass admin and exclude it from a Conditional Access policy.
-
-![7 · Break Glass and Conditional Access - preview](07-break-glass-and-conditional-access/images/29-breakglass-admin.png)
 
 [Open folder →](07-break-glass-and-conditional-access/)
 
@@ -173,5 +145,3 @@ When you finish the practice:
 ## Disclaimer
 
 Organization and writing were assisted by AI, but all steps, explanations, and research were done by Diego Yonoff.
-
-> La organización y redacción fue con ayuda de IA, pero todos los pasos, explicación e investigaciones fueron hechos por Diego Yonoff.
