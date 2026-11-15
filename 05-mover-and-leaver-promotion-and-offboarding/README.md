@@ -81,7 +81,7 @@ In **Former Employees > Members**, 1 group member is found: **SenLeave**.
 
 ![Former Employees - Members - SenLeave](./images/23-former-employees-senleave.png)
 
-> ✅ **Expected result:** the `Mover` ends up in **Senior Level Group**, `SenLeave` ends up in **Former Employees**, and their account must be disabled.
+> **Expected result:** the `Mover` ends up in **Senior Level Group**, `SenLeave` ends up in **Former Employees**, and their account must be disabled.
 
 ---
 
